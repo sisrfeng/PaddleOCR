@@ -117,10 +117,10 @@ Take the ID card scenario as an example. The key information generally includes 
     <img src="https://user-images.githubusercontent.com/14270174/185728456-dc396f47-0880-4279-9c7c-c99601bf16a7.png" width="500">
 </div>
 
-**Note:**
+**Note of the labeling process:**
 
-- In the labeling process, text content without key information about KIE shall be labeled as`other`, which is equivalent to background information. For example, in the ID card scenario, if we do not pay attention to `DOB` information, we can mark the categories of `DOB` and `Area manager` as `other`.
-- In the annotation process of, it is required to annotate the **textline** position rather than the character.
+- Text content without key information about KIE shall be labeled as`other`, which is equivalent to background information. For example, in the ID card scenario, if we do not pay attention to `DOB` information, we can mark the categories of `DOB` and `Area manager` as `other`.
+- Please annotate the **textline** position rather than the character.
 
 
 In terms of data, generally speaking, for relatively fixed scenes, **50** training images can achieve acceptable effects. You can refer to [PPOCRLabel](../../PPOCRLabel/README.md) for finish the labeling process.
